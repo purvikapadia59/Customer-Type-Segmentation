@@ -54,6 +54,20 @@ Focus areas include:
 
 ---
 
+## 💻 How to Run
+
+1. **Clone the repository** or download the project folder.  
+2. Make sure you have **Python 3.x** installed.  
+3. Open **CMD** (Command Prompt) in the project root folder.  
+4. Install required libraries (if not already installed):
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+5. Run the main project script:
+python p1.py
+6. The Tkinter GUI will open, and you can start interacting with the application.
+
+---
 ## 📹 Project Demo
 
 [![Watch the video](https://img.shields.io/badge/Watch%20Demo-Click%20Here-brightgreen?style=for-the-badge)](customer_type_project.mp4)
