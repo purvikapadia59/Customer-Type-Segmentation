@@ -1,4 +1,4 @@
-# 🛍️ Customer Segmentation App
+# 🛍️ Customer Type Segmentation
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 
