@@ -1,0 +1,4 @@
+1) check for null or empty values
+2) check if the input contains only valid numeric values
+3) check for negative numbers
+4) check if Spending Score is in the valid range
