@@ -63,8 +63,11 @@ Focus areas include:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+---
 5. Run the main project script:
+```bash
 python p1.py
+---
 6. The Tkinter GUI will open, and you can start interacting with the application.
 
 ---
