@@ -1,21 +1,22 @@
-# 🛍️ Customer Type Prediction Project
+# 🛍️ Customer Segmentation App
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 
-> A **Machine Learning** project to predict customer types using clustering & classification, with a **Tkinter GUI** and interactive visualizations.
+> A **Machine Learning** project to segment customers using **K-Means Clustering** with a **Tkinter GUI** and interactive cluster visualization.
 
 ---
 
 ## 📌 Overview
 
-This project analyzes customer behavior data from a shopping mall and segments customers into different types using **machine learning algorithms**.  
+This project analyzes customer data from a shopping mall and segments customers into different types based on **age, annual income, and spending score**.  
 It includes a **GUI-based interface** built with **Tkinter**, making it user-friendly and interactive.
 
 Focus areas include:
-- Customer demographics analysis
-- Data visualization
-- Clustering to identify customer groups
-- Interactive prediction interface
+- Customer demographics analysis  
+- Data preprocessing & normalization  
+- Customer segmentation using **K-Means Clustering**  
+- Interactive GUI for prediction  
+- Cluster visualization within the GUI  
 
 ---
 
@@ -23,9 +24,9 @@ Focus areas include:
 
 - ✅ GUI interface built using **Tkinter**  
 - ✅ Machine Learning model for **customer segmentation**  
-- ✅ Beautiful **data visualizations** using Matplotlib & Seaborn  
-- ✅ Loads dataset dynamically using **Pandas**  
-- ✅ Predicts customer type based on user input  
+- ✅ Input validation for numeric fields and ranges  
+- ✅ Interactive **cluster visualization** using Matplotlib  
+- ✅ Predicts customer segment based on user input  
 
 ---
 
@@ -38,7 +39,6 @@ Focus areas include:
 | Pandas       | Data manipulation & analysis      |
 | NumPy        | Numerical computations            |
 | Matplotlib   | Data visualization               |
-| Seaborn      | Advanced visualizations           |
 | Scikit-learn | Machine learning algorithms       |
 
 ---
@@ -46,11 +46,11 @@ Focus areas include:
 ## 🗂️ Dataset Used
 
 **Mall_Customers.csv** – Contains customer information:  
-- Customer ID  
+- CustomerID  
 - Gender  
 - Age  
-- Annual Income  
-- Spending Score  
+- Annual Income (k$)  
+- Spending Score (1-100)  
 
 ---
 
